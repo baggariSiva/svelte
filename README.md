@@ -3,9 +3,9 @@
 
 <a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/svelte"><img src="src\assets\deploy-on-elestio.png" alt="Deploy on elest.io" width="180px" /></a>
 
-Example application and CI/CD pipeline showing how to deploy a Django website to elestio.
+Example application and CI/CD pipeline showing how to deploy a Svelte website to elestio.
 
-<img src="src\assets\svelte.png" alt="screenshot of the Svelte app" width="100%" />
+<img src="src\assets\svelte-screenshot.png" alt="screenshot of the Svelte app" width="100%" />
 
 ## CI/CD on Elestio
 
