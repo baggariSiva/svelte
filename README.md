@@ -9,6 +9,15 @@ npm init vite Project-name -- --template svelte
 
 <img src="src\assets\svelteScreenshot.png" alt="screenshot of the example app" width="100%" />
 
+Clone this repo and change into project directory
+
+Run these in terminal.
+```
+npm install
+npm run dev
+```
+The Project will run in development mode, make the changes and push.
+
 
 ## CI/CD on Elestio
 
