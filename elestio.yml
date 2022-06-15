@@ -3,7 +3,7 @@ config:
   version: "16"
   framework: "Svelte"
   buildCommand: "npm run build"
-  buildDir: "public"
+  buildDir: "dist"
   runCommand: "npm run start"
   installCommand: 'npm install'
 ports:
@@ -19,7 +19,7 @@ ports:
 exposedPorts:
   - protocol: "HTTP"
     hostPort: "8080"
-    containerPort: "8080"
+    containerPort: "80"
     interface: "172.17.0.1"
 environments:
   - key: "ENV"
