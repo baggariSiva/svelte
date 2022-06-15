@@ -3,9 +3,24 @@
 <a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/svelte"><img src="src\assets\deploy-on-elestio.png" alt="Deploy on Elest.io" width="180px" /></a>
 
 
+# Svelte!
+
+This is a very basic example of a simple Svelete app.
+
+
+Clone this [elestio-examples/svelte](https://github.com/elestio-examples/svelte) 
+
 ```
-npm init vite Project-name -- --template svelte
+git clone https://github.com/elestio-examples/svelte.git
 ```
+Change into project directory.
+
+```
+npm install
+npm run dev
+```
+
+This starts your app in development mode, make the changes and push.
 
 <img src="src\assets\svelteScreenshot.png" alt="screenshot of the example app" width="100%" />
 
