@@ -14,7 +14,7 @@ This is a very basic example of a simple Svelte App.
 ```
 git clone https://github.com/elestio-examples/svelte.git
 ```
-### Step 2: Go to your project folder.
+### Step 2: Go to project folder.
 
 ```
 cd svelte
