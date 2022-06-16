@@ -2,27 +2,37 @@
 
 <a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/svelte"><img src="src\assets\deploy-on-elestio.png" alt="Deploy on Elest.io" width="180px" /></a>
 
+This is a very basic example of a simple Svelte App.
 
-# Svelte!
+<img src="src\assets\svelteScreenshot.png" alt="screenshot of the Svelte app" width="100%" />
 
-This is a very basic example of a simple Svelete app.
+# Steps to clone this repository and run locally.
 
 
-Clone this [elestio-examples/svelte](https://github.com/elestio-examples/svelte) 
+### Step 1: Clone this repository.
 
 ```
 git clone https://github.com/elestio-examples/svelte.git
 ```
-Change into project directory.
+### Step 2: Go to your project folder.
+
+```
+cd svelte
+```
+
+### Step 3: Install dependencies.
 
 ```
 npm install
+```
+
+### Step 4: Run your app in dev mode.
+
+```
 npm run dev
 ```
 
-This starts your app in development mode, make the changes and push.
-
-<img src="src\assets\svelteScreenshot.png" alt="screenshot of the example app" width="100%" />
+### Step 5: Make some changes and push.
 
 
 ## CI/CD on Elestio
@@ -43,14 +53,14 @@ We have three different types of deployment method
 - Gitlab
 - Docker compose
 
-But for this svelte Template, you can choose GitHub as your deployment method.
+But for this Svelte Template, you can choose GitHub as your deployment method.
 
 ### Step 3: Authentication
 
-Select Clone in step at step Git Repository and select svelte template for creating a repository in your git account after that authenticate with Git by clicking on
+Select Clone in step at step Git Repository and select Svelte template for creating a repository in your git account after that authenticate with Git by clicking on
 Continue with Github button and authorize elestio to access git then you can rename you repository name if you want.
 
-Else If you forked the repo then you can click on the Continue with GitHub button and authorize elestio to access the git repo then you can select the svelte repo otherwise you can directly insert a git repo URL to deploy the svelte application.
+Else If you forked the repo then you can click on the Continue with GitHub button and authorize elestio to access the git repo then you can select the Svelte repo otherwise you can directly insert a git repo URL to deploy the Svelte application.
 
 ### Step 4: Configuration
 
