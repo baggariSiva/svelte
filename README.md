@@ -1,6 +1,6 @@
-# Svelte on Elestio
+# Svelte using init vite on Elestio
 
-This is a minimal example of a Svelte starter kit created using degit sveltejs/template
+This is a minimal example of a Svelte starter kit created using npm init vite my-app -- --template svelte
 
 Click on the button below to deploy this repository with CI/CD on Elestio:
 
